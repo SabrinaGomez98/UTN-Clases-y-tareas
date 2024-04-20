@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/CSS/contacto.css">
+
+</head>
+<body>
+    
+    <h2>FORMULARIOS</h2>
+    <hr>
+        <form id="formulario">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+    <br>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" minlength="8" maxlength="30">
+    <br>
+            <label for="email">Mail</label>
+            <input type="email" name="email" id="email" pattern="" autofocus>
+    <br>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" min="10" max="100">
+    <br>
+            <label for="fecha">Fehca</label>
+            <input type="date" min="1950-01-01" max="2024-03-17" class="input formulario">
+    <br>
+            <label for="password">Contrasena</label>
+            <input type="password" pattern="">
+            <br>
+            <label for="password">Repita la contrasena</label>
+            <input type="password" pattern="">
+            <br>
+            <label for="provincia">Provincia</label>
+            <select name="provincia" id="provincia">
+                <optgroup>
+                    <option value="CABA">CABA</option>
+                    <option value="Buenos Aires">Buenos Aires</option>
+                </optgroup>
+            </select>
+            <br>
+            <label for="genero">Genero</label>
+            <div>
+                <input type="radio" name="genero" value="femenino"> Femenino
+                <input type="radio" name="genero" value="masculino"> Masculino
+                <input type="radio" name="genero" value="otro"> Otro
+            </div>
+    <br>
+            <label for="aceptar">Acepto los terminos del envio</label>
+            <input type="checkbox" name="aceptar" value="Acepto">
+    <br>
+            <label for="comentarios">Comentarios</label>
+            <br>
+            <textarea name="comentario" id="comentario" cols="45" rows="10"></textarea>
+    
+    
+    
+    
+            <div>
+                <input type="submit" value="Enviar Datos">
+            </div>
+    
+            <div>
+                <input type="reset" value="Borrar Formulario">
+            </div>
+    
+        </form>
+        </main>
+    
+        <footer>
+        </footer>
+    </body>
+    </html>
