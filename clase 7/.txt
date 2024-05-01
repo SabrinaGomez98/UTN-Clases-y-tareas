@@ -1,0 +1,47 @@
+CSS
+font-size (tamaño) Se recomienda hacer  siempre en pixeles
+letter-spacing: el tamaño por cada letra. Se usa mas que nada en titulos muy grandes o fuentes que queremos espaciar las letras, 
+word-spacing: Nos permites espaciar entre palabras "ej: HOLA     MUNDO"
+text-decoration (tiene una unidad y valor) underline red;
+también se puede utilizar "underline red dashed" hace una decoracion en nuestro texto ------
+text-shadow: (una sombra para el texto, es una propiedad que necesita un orden, primero eje X y luego eje Y, por ultimo valor de difuminación y color)
+text-shadow: 20px (a la derecha), 0px(centro) 3px (difuminación) black (color)
+se pueden agregar las sombras que quieras.
+
+
+"pagina importante, "TEXT SHADOW CSS GENERATOR"
+
+width (ancho) 200px;
+height (alto) 100 px;
+text-align: center; (hace que el texto se alinee en su espacio.)
+font-family: (nos permite cambiar la fuente del texto) 
+Si yo quiero usar otro tipo de fuente debo ir a "google fonts" 
+buscamos un tipo de fuente, luego lo importamos. Se pega en el CSS primer renglon (EJ: @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');)
+Luego ponemos font-family: "Poppins", sans -serif;
+* el asterisco llama a todo. Para poder usar la misma fuente en todo tipo de texto se utiliza *{ font-family: "Poppins", sans -serif;}
+font-weight: (grosor de la letra, no todas las fuentes la tienen)
+font-style: italic; (le da estilo a la fuente)
+line-height; 15 px. (nos permite cambiar el tamaño entre lineas)
+display: inline-block, lo deja en su estado natural, la diferencia es que puedo darle un ancho.
+El block, no se puede alinear.
+El inline.block permite anocho y alto y alinearse.
+Inline.block se usa para que un link tenga ancho y alto, tambien a un span. 
+Palabras claves, inline, inline-block, block.
+
+box-sizing: border-box; hace que se use el espacio de una caja sin sumar el resto.
+Por buenas practicas se utiliza en todo.
+
+  padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px ;
+
+hay una forma mas practica de usar padding sin usar tantos renglones de codigo.
+padding, tiene un orden, sentido a las agujas del reloj
+podemos usar/ padding: 30px, 15px, 30px, 30px;
+en el caso de que sea tanto verrtical como horizontal lo mismo se peude usar de la siguiente manera>
+padding: 30px 15px. (De esa fomra se entiende que tanto arriba como abajo tendra 30px y los costados 15px)
+Si el diseniador es gede, se y pide otra medida para la parte de abajo, debemos hacer lo siguiente: padding: 30px 15px 35px;
+
+
+el mismo concepto se aplica para margin.
