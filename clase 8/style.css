@@ -1,0 +1,49 @@
+/* Normalizacion */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: white;
+}
+
+.input{
+    margin-top: 50px;
+    margin-left: 50px;
+    border: none;
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.221,);
+    padding: 5px 18px;
+}
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+/*     border: 3px solid red; */
+    color: white;
+    padding-left: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    /* X - Y - BLUR - BASE - COLOR  */
+    box-shadow: inset 0px 0px 3px 2px rgb(255,255,255),
+    0px 0px 10px 0px white ;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+li{
+    list-style-type: none;
+}
+
+h1{
+    color: white;
+    font-family: sans-serif;
+    -webkit-text-stroke: 10px;
+
+}

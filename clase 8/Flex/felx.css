@@ -1,0 +1,20 @@
+/* Etiqueta universal */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.padre{
+    background-color: green;
+    height: 100vh;
+
+}
+
+.hijo{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
